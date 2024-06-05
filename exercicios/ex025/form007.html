@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário</title>
 </head>
 <body>
-    
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadasttro.php" method="get" autocomplete="on">
+
+        <p>
+            <label for="iest">Estado</label>
+             <select name="" id="">
+                 name="estado" id="iest">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="SP">São Paulo</option>
+             </select>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
